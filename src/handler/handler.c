@@ -427,7 +427,7 @@ static void handle_post(int fd, const struct request *req, const char *root, con
         return;
     }
 
-    const char *msg  = "DATA stored successfully (version 2).\r\n";
+    const char *msg  = "Data stored successfully.\r\n";
     size_t      mlen = strlen(msg);
     char        header[HEADER_BUF_SIZE];
     int         hlen = snprintf(header,

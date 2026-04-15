@@ -1,1 +1,0 @@
-/usr/bin/clang -fPIC -g -shared -Xlinker --dependency-file=CMakeFiles/handler.dir/link.d -Wl,-soname,libhandler.so -o libhandler.so CMakeFiles/handler.dir/src/handler/handler.c.o   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib: -lgdbm_compat -lgdbm
